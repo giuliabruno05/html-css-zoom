@@ -1,0 +1,90 @@
+/* regole generali */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #f5f4f8;
+}
+body{ 
+    font-family: 'Lato', sans-serif;
+    background-color: #000000;
+    
+    
+}
+
+.header{
+    
+    position: fixed;   
+}
+
+.row{ 
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.icons{ 
+    background-color:#4a4a4a;
+    height: 20px;
+    border-radius: 3px;
+    line-height: 20px;
+    font-size: 10px;
+    
+    
+}
+a{ 
+   text-decoration: none;
+}
+
+.max{ 
+   font-size: 12px;
+   margin-left: 5px;
+   text-align: center;
+   width: 20px;
+}
+
+/* main */
+
+.container{ 
+    
+    width: 90%;
+    margin:10px auto;
+    margin-right: 20px;
+}
+
+img{ 
+    width: calc(90% / 7);
+}
+
+
+/* footer */
+
+.row-footer{ 
+   display: flex;
+   
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   background-color: #222222;
+   position: fixed;
+   width: 100%;
+}
+
+.fa-angle-up{ 
+    font-size: 10px;
+    line-height: 40px;
+}
+
+.icon-footer{ 
+    font-size:15px;
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+
